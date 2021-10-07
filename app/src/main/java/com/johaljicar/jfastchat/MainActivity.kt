@@ -9,7 +9,6 @@ import android.content.Intent
 import android.net.Uri
 import com.google.android.gms.ads.AdRequest
 
-
 class MainActivity : AppCompatActivity() {
 
     private lateinit var _binding: ActivityMainBinding
