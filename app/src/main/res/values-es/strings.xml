@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JFast Chat</string>
+    <string name="countriesText">Países</string>
+    <string name="number">Número</string>
+    <string name="open">Abrir</string>
+
+    <string-array name="countries">
+        <item>Afganistán (+93)</item>
+        <item>Albania (+355)</item>
+        <item>Alemania (+49)</item>
+        <item>Andorra (+376)</item>
+        <item>Angola (+244)</item>
+        <item>Anguila (+1 264)</item>
+        <item>Antigua (+1 268)</item>
+        <item>Antillas Neerlandesas (+599)</item>
+        <item>Arabia Saudita (+966)</item>
+        <item>Argelia (+213)</item>
+        <item>Argentina (+54)</item>
+        <item>Armenia (+374)</item>
+        <item>Aruba (+297)</item>
+        <item>Australia (+61)</item>
+        <item>Austria (+43)</item>
+        <item>Autoridad Palestina (+970)</item>
+        <item>Azerbaiyán (+994)</item>
+        <item>Bahamas (+1 242)</item>
+        <item>Bahrain (+973)</item>
+        <item>Bangladesh (+880)</item>
+        <item>Barbados (+1 246)</item>
+        <item>Barbuda (+1 268)</item>
+        <item>Belarus (+375)</item>
+        <item>Belice (+501)</item>
+        <item>Benín (+229)</item>
+        <item>Bermuda (+1 441)</item>
+        <item>Bolivia (+591)</item>
+        <item>Bosnia/Herzegovina (+387)</item>
+        <item>Botsuana (+267)</item>
+        <item>Brasil (+55)</item>
+        <item>Brunéi (+673)</item>
+        <item>Bulgaria (+359)</item>
+        <item>Burkina Faso (+226)</item>
+        <item>Burundi (+257)</item>
+        <item>Bután (+975)</item>
+        <item>Bélgica (+32)</item>
+        <item>Camboya (+855)</item>
+        <item>Camerún (+237)</item>
+        <item>Canadá (+1)</item>
+        <item>Chad (+235)</item>
+        <item>Chile (+56)</item>
+        <item>China (+86)</item>
+        <item>Chipre (+357)</item>
+        <item>Ciudad del Vaticano (+379)</item>
+        <item>Ciudad del Vaticano (+39)</item>
+        <item>Colombia (+57)</item>
+        <item>Comoras (+269)</item>
+        <item>Congo (DROC) (+243)</item>
+        <item>Congo (ROC) (+242)</item>
+        <item>Corea (Norte) (+850)</item>
+        <item>Corea (Sur) (+82)</item>
+        <item>Costa Rica (+506)</item>
+        <item>Costa de Marfil (+225)</item>
+        <item>Croacia (+385)</item>
+        <item>Cuba (+53)</item>
+        <item>Curazao (+599)</item>
+        <item>Diego García (+246)</item>
+        <item>Dinamarca (+45)</item>
+        <item>Dominica (+1 767)</item>
+        <item>Ecuador (+593)</item>
+        <item>Egipto (+20)</item>
+        <item>El Salvador (+503)</item>
+        <item>Emiratos Árabes Unidos (+971)</item>
+        <item>Eritrea (+291)</item>
+        <item>Eslovaquia (+421)</item>
+        <item>Eslovenia (+386)</item>
+        <item>España (+34)</item>
+        <item>Estados Unidos (+1)</item>
+        <item>Estonia (+372)</item>
+        <item>Etiopía (+251)</item>
+        <item>Filipinas (+63)</item>
+        <item>Finlandia (+358)</item>
+        <item>Fiyi (+679)</item>
+        <item>Francia (+33)</item>
+        <item>Gabón (+241)</item>
+        <item>Gambia (+220)</item>
+        <item>Georgia (+995)</item>
+        <item>Ghana (+233)</item>
+        <item>Gibraltar (+350)</item>
+        <item>Granada (+1 473)</item>
+        <item>Grecia (+30)</item>
+        <item>Groenlandia (+299)</item>
+        <item>Guadalupe (Antillas Francesas) (+590)</item>
+        <item>Guatemala (+502)</item>
+        <item>Guernsey (+44)</item>
+        <item>Guinea (+224)</item>
+        <item>Guinea Ecuatorial (+240)</item>
+        <item>Guinea-Bisáu (+245)</item>
+        <item>Guyana (+592)</item>
+        <item>Guyana Francesa (+594)</item>
+        <item>Haití (+509)</item>
+        <item>Holanda (+31)</item>
+        <item>Honduras (+504)</item>
+        <item>Hong Kong (+852)</item>
+        <item>Hungría (+36)</item>
+        <item>India (+91)</item>
+        <item>Indonesia (+62)</item>
+        <item>Iraq (+964)</item>
+        <item>Irlanda (+353)</item>
+        <item>Irán (+98)</item>
+        <item>Isla de Man (+44)</item>
+        <item>Isla de San Martín (+1 721)</item>
+        <item>Islandia (+354)</item>
+        <item>Islas Caimán (+1 345)</item>
+        <item>Islas Cook (+682)</item>
+        <item>Islas Feroe (+298)</item>
+        <item>Islas Malvinas (+500)</item>
+        <item>Islas Marianas del Norte (+1 670)</item>
+        <item>Islas Marshall (+692)</item>
+        <item>Islas Mauricio (+230)</item>
+        <item>Islas Midway (+1 808)</item>
+        <item>Islas Salomón (+677)</item>
+        <item>Islas Turcas y Caicos (+1 649)</item>
+        <item>Islas Vírgenes (+1 340)</item>
+        <item>Islas Vírgenes Británicas (+1 284)</item>
+        <item>Islas de Cabo Verde (+238)</item>
+        <item>Israel (+972)</item>
+        <item>Italia (+39)</item>
+        <item>Jamaica (+1 876)</item>
+        <item>Japón (+81)</item>
+        <item>Jersey (+44)</item>
+        <item>Jordania (+962)</item>
+        <item>Kazajistán (+7)</item>
+        <item>Kenia (+254)</item>
+        <item>Kirguistán (+996)</item>
+        <item>Kiribati (+686)</item>
+        <item>Kuwait (+965)</item>
+        <item>Laos (+856)</item>
+        <item>Lesoto (+266)</item>
+        <item>Letonia (+371)</item>
+        <item>Liberia (+231)</item>
+        <item>Libia (+218)</item>
+        <item>Liechtenstein (+423)</item>
+        <item>Lituania (+370)</item>
+        <item>Luxemburgo (+352)</item>
+        <item>Líbano (+961)</item>
+        <item>Macau (+853)</item>
+        <item>Macedonia (+389)</item>
+        <item>Madagascar (+261)</item>
+        <item>Malasia (+60)</item>
+        <item>Malaui (+265)</item>
+        <item>Maldivas (+960)</item>
+        <item>Malta (+356)</item>
+        <item>Malí (+223)</item>
+        <item>Marruecos (+212)</item>
+        <item>Martinica (+596)</item>
+        <item>Mauritania (+222)</item>
+        <item>Micronesia (+691)</item>
+        <item>Moldavia (+373)</item>
+        <item>Mongolia (+976)</item>
+        <item>Montenegro (+382)</item>
+        <item>Montserrat (+1 662)</item>
+        <item>Mozambique (+258)</item>
+        <item>Myanmar (Birmania) (+95)</item>
+        <item>México (+52)</item>
+        <item>Mónaco (+377)</item>
+        <item>Namibia (+264)</item>
+        <item>Nauru (+674)</item>
+        <item>Nepal (+977)</item>
+        <item>Nicaragua (+505)</item>
+        <item>Nigeria (+234)</item>
+        <item>Noruega (+47)</item>
+        <item>Nueva Caledonia (+1 687)</item>
+        <item>Nueva Zelanda (+64)</item>
+        <item>Níger (+227)</item>
+        <item>Omán (+968)</item>
+        <item>Pakistán (+92)</item>
+        <item>Palaos (+680)</item>
+        <item>Panamá (+507)</item>
+        <item>Papúa Nueva Guinea (+675)</item>
+        <item>Paraguay (+595)</item>
+        <item>Perú (+51)</item>
+        <item>Polinesia Francesa (+689)</item>
+        <item>Polonia (+48)</item>
+        <item>Portugal (+351)</item>
+        <item>Puerto Rico (+1 787)</item>
+        <item>Puerto Rico (+1 939)</item>
+        <item>Qatar (+974)</item>
+        <item>Reino Unido (+44)</item>
+        <item>República Centroafricana (+236)</item>
+        <item>República Checa (+420)</item>
+        <item>República Dominicana (+1 809)</item>
+        <item>República Dominicana (+1 829)</item>
+        <item>República Dominicana (+1 849)</item>
+        <item>Reunión (+262)</item>
+        <item>Ruanda (+250)</item>
+        <item>Rumania (+40)</item>
+        <item>Rusia (+7)</item>
+        <item>Samoa (+685)</item>
+        <item>Samoa Americana (+1 684)</item>
+        <item>San Cristóbal/Nieves (+1 869)</item>
+        <item>San Marino (+378)</item>
+        <item>San Pedro/Miquelón (+508)</item>
+        <item>San Vicente/Granadinas (+1 784)</item>
+        <item>Santa Lucía (+1 758)</item>
+        <item>Santo Tomé/Príncipe (+239)</item>
+        <item>Senegal (+221)</item>
+        <item>Serbia (+381)</item>
+        <item>Seychelles (+248)</item>
+        <item>Sierra Leona (+232)</item>
+        <item>Singapur (+65)</item>
+        <item>Siria (+963)</item>
+        <item>Somalia (+677)</item>
+        <item>Sri Lanka (+94)</item>
+        <item>Suazilandia (+268)</item>
+        <item>Sudáfrica (+27)</item>
+        <item>Sudán (+249)</item>
+        <item>Sudán del Sur (+211)</item>
+        <item>Suecia (+46)</item>
+        <item>Suiza (+41)</item>
+        <item>Suriname (+597)</item>
+        <item>Tailandia (+66)</item>
+        <item>Taiwán (+886)</item>
+        <item>Tanzania (+255)</item>
+        <item>Tayikistán (+992)</item>
+        <item>Territorio australiano (+672)</item>
+        <item>Togo (+228)</item>
+        <item>Tokelau (+690)</item>
+        <item>Tonga (+676)</item>
+        <item>Trinidad y Tobago (+1 868)</item>
+        <item>Turkmenistán (+993)</item>
+        <item>Turquía (+90)</item>
+        <item>Tuvalu (+688)</item>
+        <item>Túnez (+216)</item>
+        <item>Ucrania (+380)</item>
+        <item>Uganda (+256)</item>
+        <item>Uruguay (+598)</item>
+        <item>Uzbekistán (+998)</item>
+        <item>Vanuatu (+678)</item>
+        <item>Venezuela (+58)</item>
+        <item>Vietnam (+84)</item>
+        <item>Yemen (+967)</item>
+        <item>Yibuti (+253)</item>
+        <item>Zambia (+260)</item>
+        <item>Zimbabue (+263)</item>
+    </string-array>
+</resources>
