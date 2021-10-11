@@ -3,6 +3,8 @@
     <string name="countriesText">Countries</string>
     <string name="number">Number</string>
     <string name="open">Open</string>
+    <string name="emptyCountry">Please select a country.</string>
+    <string name="emptyNumber">Number field cannot be empty.</string>
 
     <string-array name="countries">
         <item>Afghanistan (+93)</item>
