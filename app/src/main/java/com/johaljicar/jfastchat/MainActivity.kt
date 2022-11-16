@@ -1,14 +1,15 @@
 package com.johaljicar.jfastchat
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
-import com.johaljicar.jfastchat.databinding.ActivityMainBinding
-import android.content.Intent
-import android.net.Uri
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
+import com.johaljicar.jfastchat.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
