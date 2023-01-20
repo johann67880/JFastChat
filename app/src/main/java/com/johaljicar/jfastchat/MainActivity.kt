@@ -37,16 +37,18 @@ class MainActivity : AppCompatActivity() {
         _binding.autoCompleteTextView.setAdapter(arrayAdapter)
     }
 
-    private fun ValidateInputs() {
+    private fun ValidateInputs(): Boolean {
         if(_binding.autoCompleteTextView.text.toString().isEmpty()) {
             Toast.makeText(this, R.string.emptyCountry, Toast.LENGTH_LONG).show()
-            return;
+            return false;
         }
 
         if(_binding.txtCellphoneNumber.text.toString().isEmpty()) {
             Toast.makeText(this, R.string.emptyNumber, Toast.LENGTH_LONG).show()
-            return;
+            return false;
         }
+
+        return true;
     }
 
     private fun getCountryCode(): String {
@@ -88,7 +90,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openWhatsApp(view: View) {
-        this.ValidateInputs()
+        if(!this.ValidateInputs())
+            return;
+
         val whatsAppPackageName = "com.whatsapp"
 
         if(isAppInstalled(whatsAppPackageName)) {
@@ -100,7 +104,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openWhatsAppBusiness(view: View) {
-        this.ValidateInputs()
+        if(!this.ValidateInputs())
+            return;
+
         val whatsAppBusinessPackageName = "com.whatsapp.w4b"
 
         if(isAppInstalled(whatsAppBusinessPackageName)) {
