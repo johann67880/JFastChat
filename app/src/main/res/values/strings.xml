@@ -2,9 +2,12 @@
     <string name="app_name">JFast Chat</string>
     <string name="countriesText">Countries</string>
     <string name="number">Number</string>
-    <string name="open">Open</string>
+    <string name="openWhatsApp">Open WhatsApp</string>
+    <string name="openWhatsAppBusiness">Open WhatsApp Business</string>
     <string name="emptyCountry">Please select a country.</string>
     <string name="emptyNumber">Number field cannot be empty.</string>
+    <string name="whatsAppNotInstalled">WhatsApp is not installed on the device.</string>
+    <string name="whatsAppBusinessNotInstalled">WhatsApp Business is not installed on the device.</string>
 
     <string-array name="countries">
         <item>Afghanistan (+93)</item>

@@ -1,7 +1,10 @@
 package com.johaljicar.jfastchat
 
+import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
@@ -34,8 +37,7 @@ class MainActivity : AppCompatActivity() {
         _binding.autoCompleteTextView.setAdapter(arrayAdapter)
     }
 
-    fun openWhatsApp(view: View) {
-
+    private fun ValidateInputs() {
         if(_binding.autoCompleteTextView.text.toString().isEmpty()) {
             Toast.makeText(this, R.string.emptyCountry, Toast.LENGTH_LONG).show()
             return;
@@ -45,15 +47,67 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.emptyNumber, Toast.LENGTH_LONG).show()
             return;
         }
+    }
 
-        val countryCode = _binding.autoCompleteTextView.text
+    private fun getCountryCode(): String {
+        return _binding.autoCompleteTextView.text
             .split("+")[1]
             .replace(")", "")
             .replace(" ", "")
+    }
 
-        val url = "https://api.whatsapp.com/send?phone=${countryCode}${_binding.txtCellphoneNumber.text}"
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(url)
-        startActivity(i)
+    private fun getWhatsAppUri(): String {
+        val countryCode = this.getCountryCode()
+        return "https://api.whatsapp.com/send?phone=${countryCode}${_binding.txtCellphoneNumber.text}"
+    }
+
+    private fun isAppInstalled(packageName : String): Boolean {
+        return try {
+            val packageManager = this.packageManager
+
+            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                packageManager.getPackageInfo(packageName, PackageManager.PackageInfoFlags.of(0))
+            }
+            else {
+                @Suppress("DEPRECATION") packageManager.getPackageInfo(packageName, 0)
+            }
+
+            true
+        } catch(e: PackageManager.NameNotFoundException) {
+            false
+        }
+    }
+
+    private fun openSpecificPackageName(packageName: String) {
+        val whatsAppIntent = Intent(Intent.ACTION_VIEW)
+        whatsAppIntent.setPackage(packageName)
+
+        val url = getWhatsAppUri()
+        whatsAppIntent.data = Uri.parse(url)
+        startActivity(whatsAppIntent)
+    }
+
+    fun openWhatsApp(view: View) {
+        this.ValidateInputs()
+        val whatsAppPackageName = "com.whatsapp"
+
+        if(isAppInstalled(whatsAppPackageName)) {
+            openSpecificPackageName(whatsAppPackageName)
+        }
+        else {
+            Toast.makeText(this, R.string.whatsAppNotInstalled, Toast.LENGTH_LONG).show()
+        }
+    }
+
+    fun openWhatsAppBusiness(view: View) {
+        this.ValidateInputs()
+        val whatsAppBusinessPackageName = "com.whatsapp.w4b"
+
+        if(isAppInstalled(whatsAppBusinessPackageName)) {
+            openSpecificPackageName(whatsAppBusinessPackageName)
+        }
+        else {
+            Toast.makeText(this, R.string.whatsAppBusinessNotInstalled, Toast.LENGTH_LONG).show()
+        }
     }
 }

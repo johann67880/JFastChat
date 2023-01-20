@@ -26,4 +26,13 @@
             android:value="ca-app-pub-3940256099942544~3347511713"/>
     </application>
 
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="image/jpeg" />
+        </intent>
+    </queries>
 </manifest>
